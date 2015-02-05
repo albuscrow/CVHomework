@@ -29,8 +29,9 @@ function testKnn(trainData, trainClassify, testData, testClassify)
     title(ax1, '邻居数K与分类精确度的关系');
     xlabel(ax1, 'K');
     ylabel(ax1, 'accuracy');
+    
+    
     scales = [100,200,300,500,700,900,1000];
-
     numOfScales = length(scales);
     accuracies = ones(1,numOfScales);
     numOfDataCol = size(trainData,2);

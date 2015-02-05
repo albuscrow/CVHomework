@@ -1,0 +1,7 @@
+itemNums = [5 10 15 20 30 50];
+atomNums = [25 36 49 64 81];
+
+currancy = zeros(1,6);
+for i = itemNums
+    getAccuracy(i,3);
+end

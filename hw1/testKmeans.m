@@ -8,6 +8,7 @@ function testKmeans(trainData)
         max(table(I,1));
     end
     
+    figure;
     plot(0:9,currencies);
     title('各个手写数字的聚类精确度');
     xlabel('数字');
